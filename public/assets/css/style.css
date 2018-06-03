@@ -1,0 +1,412 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+header {
+	background: #030303;
+	color: white;
+	padding: 2rem 1.5rem;
+}
+
+header nav {
+	display: inline-flex;
+	width: 100%;
+}
+
+header nav h3 {
+	margin-top: 5px;
+	width: 60%;
+}
+
+header nav ul {
+	margin-top: 10px;
+	list-style: none;
+	display: inline-flex;
+	width: 40%;
+}
+
+header nav ul li {
+	flex: 1;
+	text-align: center;
+}
+
+.unslider {
+	margin: 0em auto !important;
+	padding-top: 124px !important;
+}
+
+.my-slider {
+	width: 100%;
+	margin: 0 auto;
+	height: 800px;
+}
+
+.my-slider ul {
+	list-style: square;
+}
+
+.my-slider ul li p {
+	text-align: center;
+	font-size: 30px;
+}
+
+.my-slider ul li p a {
+	color: black;
+}
+
+.my-slider ul li img {
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+}
+
+.unslider-arrow {
+	display: none;
+	opacity: 0;
+}
+
+header nav ul li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+.my-services {
+	background: #f6f8fc;
+	display: block;
+	margin: 0 auto;
+	padding: 64px 0;
+}
+
+.about {
+	display: block;
+	height: 100%;
+	margin: 0px auto;
+	padding-top: 64px;
+
+}
+
+.bounds {
+	width: 960px;
+	min-height: 400px;
+	display: block;
+	margin: 20px auto;
+}
+
+.bounds img {
+	float: left;
+	height: 400px;
+	margin: 0px 50px 50px 0px;
+}
+
+.my-services a {
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 200px;
+	background-color: gold;
+	color: black;
+}
+
+.services-cont {
+	display: inline-flex;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.service {
+	flex: 1;
+}
+
+.service h3 {
+	text-align: center;
+}
+
+.service p {
+	padding: 2rem;
+	text-align: center;
+}
+
+footer h1 {
+	text-align: center;
+}
+
+.contact-container {
+	background: #f6f8fc;
+	margin: 0px auto;
+	padding: 64px 16px;
+}
+
+.contact-container h1, .about h1, .my-services h1 {
+	text-align: center;
+	margin-bottom: 100px;
+  	display: block;
+  	padding-bottom: 5px;
+  	position: relative;
+}
+
+.contact-container .bounds h1:before, .about h1:before, .my-services .bounds h1:before {
+    content: "";
+    position: absolute;
+    width: 14%;
+    bottom: 0;
+    left: 43%;
+    border-bottom: 2px solid black;
+}
+
+.cont {
+	display: inline-flex;
+	width: 100%;
+}
+
+.extras, .contact {
+	flex: 1;
+}
+
+.extras {
+	justify-content: space-around;
+}
+
+.extras img {
+	max-height: 150px;
+}
+
+.contact {
+	margin-top: -70px;
+}
+
+footer {
+	background: black;
+	margin: 0 auto;
+	height: 200px;
+}
+
+.sticky {
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	position: fixed !important;
+}
+
+header nav span {
+	display: none;
+}
+
+.unslider-nav ol li {
+	display: absolute;
+	background: black !important;
+	border: 2px solid #000 !important;
+	height: 12px !important;
+	width: 12px !important;
+}
+
+.unslider-nav {
+	margin-top: -100px;
+}
+
+.unslider-nav ol li.unslider-active {
+	background: grey !important;
+}
+
+.gm-style > div:nth-child(10){
+ 	display: none;
+}
+
+.gmnoprint, .gmnoscreen {
+	display: none !important;
+}
+
+.gm-style button {
+	display: none;
+}
+
+footer h3 {
+	padding: 80px;
+	text-align: center;
+	color: white;
+}
+
+.my-slider a {
+	/*margin-top: 700px;*/
+	background-color: gold;
+	/*position: absolute;*/
+	/*right: 20%;*/
+	margin-left: 20px;
+	margin-top: -5px
+	color: black;
+}
+
+.element img {
+	flex: 1;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.element {
+	display: inline-flex;
+	float: left;
+	margin-top: -140px;
+	margin-left: 80px;
+	flex: 2;
+}
+
+#backToTop {
+	display: block;
+	position: fixed;
+	background: gold;
+	color: black;
+	padding: 8px 30px;
+	bottom: 8px;
+	right: 80px;
+	border-radius: 9px;
+	font-size: 18px;
+	visibility: hidden;
+}
+
+header nav i {
+	font-size: 40px !important;
+	display: none !important;
+}
+
+.show {
+	visibility: visible !important;
+}
+
+.frame {
+	border-radius: 50%;
+	box-shadow: 3px 3px 3px #CCC;
+}
+
+
+@media (max-width: 1200px) {
+	
+	header nav ul {
+		width: 60%;
+	}
+
+	header nav h3 {
+		width: 40%;
+	}
+
+}
+
+.gmaps {
+	margin-bottom: -10px;
+}
+
+@media (max-width: 1000px) {
+
+	.my-services h1, .about h1, .contact-container h1 {
+		font-size: 4em;
+	}
+
+	.my-services h3 {
+		font-size: 2.5em;
+	}
+
+	.my-services p, .about p {
+		font-size: 2em;
+	}
+
+	.about {
+		padding: 40px 40px;
+	}
+
+	.bounds {
+		width: 100%;
+	}
+	
+	.my-slider ul li img {
+		width: 100%;
+	}
+
+	.my-services {
+		width: 100%;
+	}	
+
+	.contact-container {
+		width: 100%;
+	}
+
+	.services-cont {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cont {
+		flex-direction: column;
+	}
+
+	.extras {
+		height: 300px;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.contact-container h3 {
+		text-align: center;
+	}
+
+	.element {
+		margin-top: -50px;
+		margin-left: 35%;
+		margin-right: 35%;
+		width: 10%;
+	
+	}
+
+	footer {
+		min-height: 280px;
+	}
+
+	header nav i {
+		font-size: 60px !important;
+		display: block !important;
+		position: absolute;
+		right: 40px;
+	}
+
+	.adjustHeader {
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+		height: 100vh !important;
+	}
+
+	header nav ul {
+		flex-direction: column;
+		
+		width: 100vh;
+		font-size: 4em;
+		
+	}
+
+	.none {
+		display: none !important;
+	}
+
+	.view {
+		display: block !important;
+	}
+
+}
+
+
+
+
+
+
+
+
+
